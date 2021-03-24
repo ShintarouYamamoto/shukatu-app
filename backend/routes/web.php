@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/return', 'UserController@return');
+
+Auth::routes();
+
+Route::get('/user/{user_id}', 'UserController@show')->name('mypage');

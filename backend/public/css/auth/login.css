@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+.form-area {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+    padding: 1rem;
+    background-color: rgb(121, 31, 31);
+    border-radius: 6px;
+    box-shadow: 0 0 5px 2px #ccc;
+}
+.form-group {
+    margin-top: 2rem;
+}
+.form-group label{
+    color: white;
+}
+.theme h1{
+    color: white;
+}
+.form-email {
+    width: 300px;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    border: 1.5px solid #dcdcdc;
+}
+.form-password {
+    width: 300px;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    border: 1.5px solid #dcdcdc;
+}
+.submit-button {
+    margin-right: 1rem;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    background-color: #eb6100;
+    border-style: none !important;
+    text-decoration: none;
+    outline: none !important;
+    border-radius: 0.5rem;
+}
+
+.submit-button:hover {
+    color: #fff;
+    background: #f56500;
+}
