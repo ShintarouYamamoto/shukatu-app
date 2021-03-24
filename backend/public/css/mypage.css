@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
 }
-.nav-brand img{
+.nav-brand img {
     width: 190px;
     object-fit: contain;
 }
@@ -28,19 +28,21 @@
     background: #f56500;
 }
 
-.container{
-    margin-top: 2rem;
+.container {
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+.tab {
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px #ccc;
+}
+.list {
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px #ccc;
 }
 
-
-
-
-
-
-
-
 @media screen and (max-width: 768px) {
-    .nav-brand img{
+    .nav-brand img {
         width: 130px;
         object-fit: contain;
     }
@@ -58,5 +60,4 @@
         color: #fff;
         background: #f56500;
     }
-    
 }

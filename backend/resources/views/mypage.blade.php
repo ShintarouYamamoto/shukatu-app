@@ -7,6 +7,7 @@
 @endsection
 
 @section('content')
+
 <div class="nav row d-flex align-items-center">
     <div class="nav-brand col-lg-9 col-md-7 col-sm-8 col">
         <img src="{{ asset('images/logo.png') }}" alt="">
@@ -14,18 +15,22 @@
     <div class="col-lg-3 col-md-5 col-sm-4 col">
     </div>
 </div>
+<div class="main">
 
-<div class="container">
-
-    <div class="card">
-        <div class="card-header">
-            プロフィール
+    <div class="container row">
+        <div class="tab col-3">
+            <p>tab</p>
         </div>
-        <div class="card-body">
-        <h5 class="card-title"><i class="fas fa-user fa-fw"></i> {{ $user->name }}</h5>
+        <div class="col-1">
+        </div>
+        <div class="list col-8">
+            <p>list</p>
         </div>
     </div>
-    
+
 </div>
 
+<script>
+
+</script>
 @endsection
