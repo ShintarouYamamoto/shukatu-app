@@ -15,11 +15,23 @@
     <div class="col-lg-3 col-md-5 col-sm-4 col">
     </div>
 </div>
+
 <div class="main">
+    <div class="container row">
+        <div>
+            <div id="app">
+                <button v-on:click="click">選考追加</button>
+                <div v-show="show">post area</div>
+            </div>
+        </div>
+    </div>
 
     <div class="container row">
         <div class="tab col-3">
-            <p>tab</p>
+            <div id="app">
+                <button v-on:click="click">ボタン</button>
+                <p v-show="show">v-showで分岐</p>
+            </div>
         </div>
         <div class="col-1">
         </div>
@@ -27,10 +39,25 @@
             <p>list</p>
         </div>
     </div>
+</div>
+
+<div id="app">
+    <example-component></example-component>
 
 </div>
 
+<script src="{{ mix('js/app.js') }}"></script>
 <script>
-
+    new Vue({
+        el: '#app',
+        data: {
+            show: true
+        },
+        methods: {
+            click: function() {
+                this.show = !this.show
+            }
+        }
+    });
 </script>
 @endsection
