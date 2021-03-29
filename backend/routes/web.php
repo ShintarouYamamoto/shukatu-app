@@ -21,6 +21,10 @@ Auth::routes();
 
 Route::get('/user/{user_id}', 'UserController@show')->name('mypage');
 
+Route::get('/api/tab/show', 'UserController@tab_show');
+
 Route::post('/api/tab/store', 'UserController@tab_store');
+
+Route::post('/api/company/show', 'UserController@company_show');
 
 Route::post('/api/company/store', 'UserController@company_store');

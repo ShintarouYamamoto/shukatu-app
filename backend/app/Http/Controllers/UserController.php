@@ -27,6 +27,15 @@ class UserController extends Controller
         return redirect('/user/' . Auth::user()->id);
     }
 
+    public function tab_show()
+    {
+        $user = Auth::user();
+
+        $tab_all = Tab::where('user_id', $user->id)->get();
+
+        return  $tab_all;
+    }
+
     public function tab_store(Request $request)
     {
         $user = Auth::user();
@@ -66,5 +75,11 @@ class UserController extends Controller
         $company->save();
 
         return $company;
+    }
+    public function company_show(Request $request)
+    {
+        $companies = Company::where('tab_id', $request->tab_id)->get();
+
+        return $companies;
     }
 }

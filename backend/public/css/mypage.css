@@ -27,10 +27,29 @@
     color: #fff;
     background: #f56500;
 }
-
+.logout-button {
+    margin-right: 1rem;
+    padding: 0.7rem 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff !important;
+    background-color: #eb6100;
+    text-decoration: none !important;
+    border: none;
+    outline: none !important;
+    border-radius: 0.5rem;
+}
 .container {
     margin: 0 auto;
-    margin-top: 3rem;
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+}
+.tab-area {
+    padding: 1rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(158, 158, 158);
 }
 .form-tab {
     width: 300px;
@@ -40,6 +59,9 @@
     font-size: 1rem;
     outline: none;
     border: 1.5px solid #dcdcdc;
+}
+.tab-list {
+    margin: 0.8rem;
 }
 .add-button {
     margin-right: 1rem;
@@ -54,7 +76,56 @@
     outline: none !important;
     border-radius: 0.5rem;
 }
-
+.tab-button {
+    margin: 1rem 1rem 0 0;
+    padding: 0.7rem 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    background-color: #eb6100;
+    text-decoration: none;
+    border: none;
+    outline: none !important;
+    border-radius: 0.5rem;
+}
+.company-area {
+    margin: 3rem 0;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(158, 158, 158);
+}
+.form-company {
+    width: 300px;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    border: 1.5px solid #dcdcdc;
+}
+.company-info {
+    margin: 1rem 0;
+    padding: 1rem;
+    background: rgb(121, 31, 31);
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 1.5rem;
+}
+.company-info a{
+    padding: 0.5rem 0.5rem;
+    font-size: 1rem;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    background-color: #eb6100;
+    text-decoration: none;
+    border: none;
+    outline: none !important;
+    border-radius: 0.5rem;
+}
 @media screen and (max-width: 768px) {
     .nav-brand img {
         width: 130px;
