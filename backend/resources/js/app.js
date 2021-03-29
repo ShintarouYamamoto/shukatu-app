@@ -26,6 +26,7 @@ Vue.use(ElementUI, { locale })
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('inputt', require('./components/input.vue').default);
+Vue.component('tags', require('./components/tags.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

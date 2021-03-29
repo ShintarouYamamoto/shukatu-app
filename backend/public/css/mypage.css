@@ -32,13 +32,27 @@
     margin: 0 auto;
     margin-top: 3rem;
 }
-.tab {
+.form-tab {
+    width: 300px;
+    padding: 0.8rem;
+    border: none;
     border-radius: 5px;
-    box-shadow: 0 0 5px 2px #ccc;
+    font-size: 1rem;
+    outline: none;
+    border: 1.5px solid #dcdcdc;
 }
-.list {
-    border-radius: 5px;
-    box-shadow: 0 0 5px 2px #ccc;
+.add-button {
+    margin-right: 1rem;
+    padding: 0.7rem 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    background-color: #eb6100;
+    text-decoration: none;
+    border: none;
+    outline: none !important;
+    border-radius: 0.5rem;
 }
 
 @media screen and (max-width: 768px) {
